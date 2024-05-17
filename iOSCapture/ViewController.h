@@ -10,5 +10,6 @@
 @interface ViewController : UIViewController<ARSessionDelegate>
 
 @property(strong, atomic) ARSession* _arsession;
+@property (nonatomic, strong) ARSCNView *arSceneView;
 @end
 
