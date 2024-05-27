@@ -11,5 +11,7 @@
 
 @property(strong, atomic) ARSession* _arsession;
 @property (nonatomic, strong) ARSCNView *arSceneView;
+@property(strong, atomic) dispatch_queue_t backgroundQueue_;
+@property(strong, atomic) NSString* directoryPath;
 @end
 
